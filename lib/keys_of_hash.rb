@@ -2,7 +2,7 @@ class Hash
   def keys_of(arguments)
     #code goes here
     array = []
-    animal.each do |key, value|
+    each do |key, value|
        if value == arguments
          array << key
        end
