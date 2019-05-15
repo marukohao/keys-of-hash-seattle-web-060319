@@ -1,6 +1,6 @@
 class Hash
   def keys_of(arguments)
-    code goes here
+    #code goes here
     array = []
     Hash.each do |key, value|
        if value == arguments
